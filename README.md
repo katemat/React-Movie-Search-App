@@ -1,3 +1,15 @@
+### React Movie Search App
+
+Small project to practice React functional components, React Hooks (useState).
+
+API used: TMDB
+
+[Try it](https://arrogant-wing.surge.sh)
+
+## Screenshots
+
+![Main Page](/public/images/movieApp.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

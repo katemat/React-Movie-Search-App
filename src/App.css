@@ -18,8 +18,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-image: url(/images/bg-unsplash.jpg);
-  /* background: radial-gradient(white, black); */
+  /* background-image: url(/images/bg-unsplash.jpg); */
+  background: radial-gradient(rgb(95, 93, 93), black);
   background-repeat: no-repeat;
   background-size: cover;
   min-width: 100vw;
@@ -27,6 +27,9 @@ body {
   color: var(--main-clr);
 }
 
+h1 {
+  font-family: 'Courgette', cursive;
+}
 p {
   font-size: 1rem;
 }
