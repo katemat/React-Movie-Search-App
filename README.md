@@ -4,7 +4,7 @@ Small project to practice React functional components, React Hooks (useState).
 
 API used: TMDB
 
-[Try it](https://arrogant-wing.surge.sh)
+[Try it](https://react-movies-search.surge.sh)
 
 ## Screenshots
 
