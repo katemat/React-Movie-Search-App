@@ -35,9 +35,13 @@ form {
 
 .card-list {
   margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 2rem;
+  justify-content: stretch;
 }
 .card {
-  padding: 2rem 4rem;
+  padding: 3rem;
   border-radius: var(--b-rad-lg);
   box-shadow: 1px 3px 15px rgb(216, 101, 7);
   margin-bottom: 2rem;
@@ -45,14 +49,14 @@ form {
 }
 
 .card--title {
-  margin-bottom: 0.5rem;
-  font-size: 2rem;
+  margin-bottom: 0.2rem;
+  font-size: 1.25rem;
 }
 
 .card--image {
   margin: 0 auto;
   display: block;
-  box-shadow: 2px 3px 6px rgb(128, 127, 127);
+  box-shadow: 2px 3px 8px rgb(128, 127, 127);
 }
 
 @media (min-width: 786px) {

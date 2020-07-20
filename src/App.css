@@ -4,7 +4,7 @@
   --bg-btn: radial-gradient(white, chocolate);
   --bg-btn-hov: radial-gradient(chocolate, white);
   --b-rad: 8px;
-  --b-rad-lg: 15px;
+  --b-rad-lg: 20px;
 }
 
 html {
@@ -28,10 +28,11 @@ body {
 }
 
 p {
-  font-size: 1.6rem;
+  font-size: 1rem;
 }
 small {
-  font-size: 1.2rem;
+  font-size: 0.75rem;
+  color: var(--sec-clr);
 }
 
 .container {
